@@ -47,7 +47,7 @@ def test_strings_to_command():
     command = string_to_command(s)
 
     # Then
-    assert command == (Direction.FORWARD, 18)
+    assert command == Command(Direction.FORWARD, 18)
 
 
 # Day 2

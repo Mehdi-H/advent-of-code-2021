@@ -23,7 +23,7 @@ def sum_groups_of_measurements(groups) -> List[int]:
 
 
 if __name__ == '__main__':
-    with open('input.txt') as f:
+    with open('input_day_1.txt') as f:
         depths: List[int] = [int(n) for n in f.readlines()]
     print(number_times_depth_increases(depths))  # 1752
     print(number_times_depth_increases(depths, measurement_sliding_window=3))  # 1781

@@ -1,4 +1,4 @@
-from day_1.__main__ import number_times_depth_increases, group_measurements, sum_groups_of_measurements
+from day_1 import number_times_depth_increases, group_measurements, sum_groups_of_measurements
 
 
 def test_no_increase():

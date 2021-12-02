@@ -34,7 +34,7 @@ def test_seven_increases():
     assert increases == 7
 
 
-#### Part 2
+# Part 2
 
 def test_group_measurements_with_sliding_window_of_3():
     # Given

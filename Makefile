@@ -22,3 +22,9 @@ install:
 tests: PYTHONPATH=.
 tests:
 	pytest tests/
+
+.PHONY: lint
+lint:
+	flake8 --ignore=E501
+	safety check --full-report
+	bandit day*.py
